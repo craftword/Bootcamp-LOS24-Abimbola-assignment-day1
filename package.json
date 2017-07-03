@@ -1,0 +1,32 @@
+{
+  "name": "Bootcamp-LOS24-Abimbola-assignment-day1",
+  "version": "1.0.0",
+  "description": "Bootcamp-LOS24-Abimbola-assignment-day1",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "spec/fizz-buzz-lab.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craftword/Bootcamp-LOS24-Abimbola-assignment-day1"
+  },
+  "author": "Abimbola Olaitan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftword/Bootcamp-LOS24-Abimbola-assignment-day1"
+  },
+  "homepage": "https://github.com/craftword/Bootcamp-LOS24-Abimbola-assignment-day1",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "keywords": [
+    "api"
+  ]
+}
