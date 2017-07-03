@@ -2,12 +2,8 @@
   "name": "Bootcamp-LOS24-Abimbola-assignment-day1",
   "version": "1.0.0",
   "description": "Bootcamp-LOS24-Abimbola-assignment-day1",
-  "main": "app.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "spec/fizz-buzz-lab.js"
+    "test": "mocha spec/getPrime-spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,11 +18,6 @@
   "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
-  },
-  "devDependencies": {
-    "jasmine": "^2.5.3"
-  },
-  "keywords": [
-    "api"
-  ]
+  }
+ 
 }
