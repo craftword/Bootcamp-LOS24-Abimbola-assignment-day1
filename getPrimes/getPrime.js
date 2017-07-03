@@ -4,7 +4,7 @@ exports.getPrimes = function (n) {
      if(n == 0 || n < 0) {
      	 return "negative number or zero";
      }
-     else if (n == 1) {
+     else if (n === 1) {
         return "One is not a prime number";
       }
      else {
@@ -12,7 +12,7 @@ exports.getPrimes = function (n) {
      * An integer is prime if it is not divisible by any prime less than or equal to its square root
      **/
       let j,k=2;
-      var arrPrime=[2];
+      let arrPrime=[2];
       for (i=3;i<=n;i+=2){
         j = Math.sqrt(i);
         isPrime = true;
